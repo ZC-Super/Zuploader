@@ -3,7 +3,7 @@
  * 上传文件接收存储demo
  *
  * @Author zengchao
- * @Email zengchao@sefonsoft.com
+ * @Email zengchaolovezh@163.com
  * @UpdateTime (2016-06-27)
  *******************************************************************************/
 	$targetFolder = '/uploads'; //定义文档目录

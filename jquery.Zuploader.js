@@ -4,7 +4,7 @@
  * Copyright (C) 2016 zengchao
  *
  * @Author zengchao
- * @Email zengchao@sefonsoft.com
+ * @Email zengchaolovezh@163.com
  * @UpdateTime (2016-06-27)
  *******************************************************************************/
 (function($){
