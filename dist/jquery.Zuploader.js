@@ -4,7 +4,7 @@
  * Copyright (C) 2016 zengchao
  *
  * @Author zengchao
- * @Email zengchaolovezh@163.com
+ * @Email zengchao@sefonsoft.com
  * @UpdateTime (2016-06-27)
  *******************************************************************************/
 (function($){
@@ -190,10 +190,8 @@
 							if(fileName == files[i].name){
 								var replaceQueueItem = confirm('命名的文件 "' + files[i].name + '" 已存在1.\n是否要替换现有文件?');
 								if (!replaceQueueItem) {
-									console.log(1);
 									return false;
 								}else{
-									console.log(0);
 								}
 							}
 						}
