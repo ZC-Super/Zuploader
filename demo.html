@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Zuploader演示--Power By zengchao</title>
+<title>Zuploader--Power By zengchao</title>
 <link rel="stylesheet" type="text/css" href="Zuploader.css"/>
 </head>
 
@@ -11,15 +11,6 @@
 <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.0.2/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.Zuploader.js"></script>
 <script type="text/javascript">
-	var dataList = [{
-			id:21,
-			name:"dsds.png",
-			size:54345
-		},{
-			id:21,
-			name:"dfgfdg.png",
-			size:58454
-		}];
 	$('#upload').Zuploader({
 		auto:true,
 		fileTypeExts:'*.jpg;*.png;*.doc;*.docx;*.txt;*.zip',
@@ -32,19 +23,13 @@
 		showUploadedSize:true,
 		removeTimeout:999999,
 		uploader:'upload.php',
-		initData:dataList,
 		onSelect:function(file,fileFilter){
-			//console.log("选择了文件");
-			//console.log(file)
 		},
 		onUploadError:function(file,response){
-			//console.log("上传失败");
 		},
 		onUploadSuccess:function(file,response){
-			//console.log("上传成功");
 		},
 		onUploadComplete:function(file,response){
-			//console.log("上传完成");
 		},
 		onCancel:function(file,fileFilter){
 		}
